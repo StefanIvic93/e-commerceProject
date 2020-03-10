@@ -1,0 +1,313 @@
+﻿/*=======================================
+    css za head,body...
+==================================================*/
+
+body {
+    font-size:14px;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+
+}
+h4 {
+     line-height:30px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+section {
+    padding-top:100px;
+    padding-bottom:30px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+/* ===========================================================
+   navbar css
+   ============================================================*/
+.navbar {
+	font-size: 18px;
+}
+
+.navbar-inverse {
+background: #fff;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #000;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #000;
+}
+.navbar-toggle {
+    background-color: black;
+}
+
+/*=======================================
+    o meni css
+==================================================*/
+
+
+
+#home-sec {
+
+
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+}
+
+.head-main {
+    font-size:60px ;
+    font-weight:700;
+    padding:15px;
+    text-transform:uppercase;
+
+}
+
+.head-last {
+     margin-top:70px;
+    font-size:25px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    padding:5px;
+}
+
+/*=======================================
+    vestine progras bar css
+==================================================*/
+
+
+.progress-adjust {
+    height: 10px;
+     margin-bottom: 0px;
+}
+.skill-div {
+    margin-top:10px;
+}
+
+.progress {
+    min-height:40px;
+}
+
+/* ===========================================================
+  o meni
+   ============================================================*/
+.panel-title-adjust{
+font-size: 20px;
+padding: 5px;
+}
+
+    .panel-title-adjust a:hover {
+        text-decoration:none;
+    }
+.panel-title-adjust i {
+        padding-right:5px;
+    }
+/*=======================================
+    Stil za "sta sam radio"
+==================================================*/
+
+#carousel-example {
+    margin:20px;
+
+}
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}
+
+.user-img {
+border: 2px solid #000;
+overflow: hidden;
+border-radius: 50%;
+display: inline-block;
+}
+
+.img-u {
+   max-height: 90px;
+max-width: 90px;
+}
+
+.c-set {
+    font-style: italic;
+font-size: 20px;
+padding: 15px;
+}
+#Gallery
+
+
+.head-last {
+     margin-top:70px;
+    font-size:25px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    padding:5px;
+}
+img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:2px;
+}
+
+img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}
+#testimonial {
+
+
+background: url(../img/home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+
+.plan {
+padding: 0 0 15px 0;
+margin: 30px 0px;
+list-style: none;
+text-align: center;
+}
+
+
+.plan li {
+padding: 15px 0px;
+font-size: 16px;
+border-bottom: 1px dotted #e1e1e1;
+}
+
+.round-body {
+display: table;
+width: 135px;
+height: 135px;
+margin: 0 auto 14px auto;
+border: 3px solid #000;
+border-radius: 100%;
+}
+.price-main {
+display: table-cell;
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.price-Unit {
+display: block;
+}
+
+small {
+    font-size:10px!important;
+    font-weight:normal;
+}
+/*=======================================
+    kontakt css
+==================================================*/
+
+.qry {
+    background-color: #F3F3F3;
+}
+.cnt {
+width: 100%;
+min-height: 600px;
+border: 1px solid #e1e1e1;
+}
+.add {
+    color:#000;
+    font-size:25px;
+    font-weight:900;
+    padding:20px 10px 20px 5px;
+}
+/*=======================================
+    footer css
+==================================================*/
+
+
+
+
+#footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+}
+
+
+/*=======================================
+    MEDIA QUERIES
+
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size:28px ;
+    }
+}
